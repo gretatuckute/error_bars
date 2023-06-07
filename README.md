@@ -5,10 +5,12 @@ error_bars.Rmd - source file containing all text & code for the presentation. Yo
 error_bars.html - compiled slides used for presentation.
 
 ## Misc notes
+
 Standard deviation: would not change if we collect more data, as sample size increases, we would get closer to the population variability. As N increases, we are summing over more deviations, but we also account for it in N-1. 
 Standard error (of the mean): shrinks because of division by sqrt N. We have a population, and we obtain samples, we can compute the mean. If we take larger and larger samples, the means are going to be more and more similar across repeated measures. I.e. standard error of the mean quantifies uncertainty in the population mean given the data at hand. How variable would the sample means be if you were to do this over and over again? 
 Central limit theorem: IID samples will approximate a normal distribution with std being equal to the standard error. 
 The simplest link between standard error and CI: Mean +- 1.96 standard error will approximate the 95% CI.
+
 **Inference about differences in populations?**
 ~If error bars don't overlap, the means are significantly different. When does this hold? 
 We need to take into account how many observations went into the error bar.
